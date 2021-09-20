@@ -30,6 +30,5 @@ A aplicação dinamicamente analisa qual foi a URL informada, selecionando assim
 
 ## Suggestions
 
-1. Usar uma ferramenta como o husky para automatizar tarefas como testes no pré commit
-2. Utilização do eslint
-3. Utilização do git actions para deploy no docker-hub
+1. Utilização do eslint
+2. Utilização do git actions

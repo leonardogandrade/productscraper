@@ -1,6 +1,7 @@
 const request = require("supertest");
 const app = require('../../server');
 const mongoose = require('mongoose');
+const mongoTest = "mongodb://localhost:27017/productscraper_test";
 
 //Import Models
 require('../../src/models/product-model');
@@ -14,7 +15,7 @@ describe("Test info endpoint", () => {
 
 describe("Test scrap endpoint", () => {
   beforeAll(() => {
-    mongoose.connect(process.env.MONGO_TEST);
+    mongoose.connect(mongoTest);
   });
 
   afterAll(() => {
