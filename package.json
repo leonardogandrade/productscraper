@@ -1,0 +1,39 @@
+{
+  "name": "productscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "dev": "nodemon start.js",
+    "start": "node start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardogandrade/productscraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardogandrade/productscraper/issues"
+  },
+  "homepage": "https://github.com/leonardogandrade/productscraper#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.3",
+    "chromedriver": "^93.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.6",
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.0.0-rc-1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
+  }
+}
