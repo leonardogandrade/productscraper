@@ -13,7 +13,7 @@
 3. To run container in detached mode
 ````docker-compose up -d```
 
-4. Access the route bellow to more information
+4. Access the route bellow on your browser to more information
 ```http://localhost:3009/api/scrap?url=[product_URL] ```
 
 
